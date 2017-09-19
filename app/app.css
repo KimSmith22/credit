@@ -30,3 +30,8 @@ body{
 .btn-basic{
   background-color: #DCEDC8;
 }
+.logo{
+  font-family: cursive;
+  font-size: 25px;
+  font-weight: bold;
+}
