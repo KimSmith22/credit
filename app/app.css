@@ -1,25 +1,24 @@
 body{
-  background-color: #F3E5AB;
+  background-color: #cfb53b;
 }
 .navbar-default{
-  background-color: #DCEDC8;
-  width: 1000px;
-  margin-left: 220px;
-  margin-top: 15px;
+  background-color: #002323;
+  color: gray;
 }
-.border{
-  border-style: solid;
-  border-color: #DCEDC8;
-  border-width: 10px;
+.navbar-default a{
+  color: #cfb53b !important;
+}
+.tagline{
+  text-align: right;
 }
 .main{
   margin-top: -20px;
   width: 1000px;
-  /*background-color: #DCEDC8;*/
 }
 .location li{
   list-style: none;
-  float: left;
+  float: right;
+  margin-top: -30px;
 }
 .pic{
   margin-left: -15px;
@@ -28,7 +27,7 @@ body{
   list-style: none;
 }
 .btn-basic{
-  background-color: #DCEDC8;
+  background-color: white;
 }
 .logo{
   font-family: cursive;
