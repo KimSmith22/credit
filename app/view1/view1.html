@@ -1,5 +1,6 @@
-  <div class="row">
-    <h2><strong>Don't Let Your Credit Keep You From Living The Life You Deserve</strong></h2>
+  <div class="row text-center">
+    <h2><strong>"Your Success is Our Success in Helping Build Your Empire"</strong></h2>
+    <h4 class="red">Call 1-866-505-3040 to begin the path toward better credit!</h4>
   </div>
 
   <div class="row">
@@ -7,13 +8,50 @@
     <div class="col-sm-7 list">
 
         <div class="row">
-          <img src="img/smilingMan.jpeg" style="width: 70%"alt="">
-        </div>
+          <div class="slideshow-container sideshowView">
+
+          <div class="mySlides fade">
+            <img src="img/richBlacks.jpg" style="width:100%">
+            <div class="text">Increase Your Cash-Flow</div>
+          </div>
+
+          <div class="mySlides fade">
+            <img src="img/cards.jpg" style="width:100%">
+            <div class="text">New Lines of Credit</div>
+          </div>
+
+          <div class="mySlides fade">
+            <img src="img/blkCarBuyer.png" style="width:100%">
+            <div class="text">Better Auto Interest Rates</div>
+          </div>
+
+          <div class="mySlides fade">
+            <img src="img/dreamHouse.jpg" style="width:100%">
+            <div class="text">Financing For Your Dream Home</div>
+          </div>
+
+          </div>
+          <br>
+
+          <div style="text-align:center">
+            <span class="dot"></span>
+            <span class="dot"></span>
+            <span class="dot"></span>
+            <span class="dot"></span>
+          </div>
+    </div>
 
       <h3>Is Bad Credit Ruining Your Life?</h3>
       <p>
         A great credit report is the key to living the life you desire.  Negative items on your
-        credit report and low credit scores can cause problems in your life.  At Empire Business Credit
+        credit report and low credit scores</p>
+        <ul>
+          <li>Make you a credit risk to lenders</li>
+          <li>Raise your interest rate on vehicle purchases</li>
+          <li>Affect the price you pay for automobile and homeowners insurance</li>
+          <li>Decrease the ability to get credit cards</li>
+        </ul>
+        <p>At Empire Business Credit
         Solutions, we have a system designed to remove negative and inaccurate items from your credit report.
         Let us help you improve your credit score, get better interest rates, and a stronger credit profile.
       </p>
@@ -26,13 +64,6 @@
         rewrite your credit history to ensure it tells the story of who you are now, not any mistakes you
         may have made in the past.
       </p>
-      <h3>We Have Several Options To Fit Your Situation</h3>
-      <ul>
-        <li><a href="#!view3">700+ Credit Score in 45 Days or Less</a></li>
-        <li><a href="#!view2">A better approach to credit repair</a></li>
-        <li><a href="#!view4">Establish business credit</a></li>
-        <li><a href="#!view4">Business Funding</a></li>
-      </ul>
     </div>
     <div class="col-sm-5">
       <h4>Complete The Form to Get Started</h4>
@@ -67,8 +98,8 @@
            <div class="col-xs-12 consent-text text-center">
              <p>Clicking the button implies your express written consent
                to be contacted by Empire Business Credit Solution either by telephone, mobile device (including SMS and MMS)
-               using the phone numbers provided above, and/or email, even if your telephone number is on a Do Not Call Registry, and you agree to our terms of use and privacy policy.
-               Standard message and data rates apply.
+               using the phone numbers provided above, and/or email, even if your telephone number is on a Do Not Call Registry,
+               and you agree to our terms of use and privacy policy. Standard message and data rates apply.
              </p>
            </div>
          </div>
@@ -82,3 +113,25 @@
 
     </div>
   </div>
+
+  <script>
+    var slideIndex = 0;
+    showSlides();
+
+    function showSlides() {
+        var i;
+        var slides = document.getElementsByClassName("mySlides");
+        var dots = document.getElementsByClassName("dot");
+        for (i = 0; i < slides.length; i++) {
+           slides[i].style.display = "none";
+        }
+        slideIndex++;
+        if (slideIndex > slides.length) {slideIndex = 1}
+        for (i = 0; i < dots.length; i++) {
+            dots[i].className = dots[i].className.replace(" active", "");
+        }
+        slides[slideIndex-1].style.display = "block";
+        dots[slideIndex-1].className += " active";
+        setTimeout(showSlides, 5000); // Change image every 2 seconds
+    }
+</script>
