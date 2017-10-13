@@ -49,6 +49,9 @@ body{
   margin-left: 9.375em;
   margin-top: -6.250em;
 }
+.review p{
+  font-size: 14px;
+}
 * {box-sizing:border-box}
 body {font-family: Verdana,sans-serif;}
 .mySlides {display:none}
